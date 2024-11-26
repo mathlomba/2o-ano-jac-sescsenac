@@ -1,0 +1,70 @@
+a, a:visited{
+    text-decoration: inherit;
+}
+
+        main {
+            color: transparent;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            height: 600px;
+            margin: 100px 200px;
+            /*background-color: #f0f0f0;*/
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .quadrado {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card_imagens {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .img_card {
+            margin: 10px;
+            width: 300px;
+        }
+
+       
+
+        .carousel-control-prev, .carousel-control-next{
+            opacity: 1;
+            filter: invert(100);
+        }
+        
+        .cars {
+            height: 377px;
+        }
+
+
+                .sr-only{
+                    background-image: '';
+                }
+
+                .link-cardapio {
+                    margin: 0 20px;
+                    font-size: 50px;
+                    color: #f7941d;
+                    background-color: #041c3d;
+                    text-align: center;
+                    width: 300px;
+                    padding: 25px 0;
+                    transition-duration: 0.5s;
+                    border: 2px solid #000;
+                    border-radius: 75px;
+                }
+
+.link-cardapio:hover {
+    color: #041c3d;
+    background-color: #f7941d;
+}
+
